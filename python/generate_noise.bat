@@ -1,0 +1,1 @@
+ffmpeg -f lavfi -i "nullsrc=s=1280x720:r=30" -f lavfi -i "aevalsrc=-1+random(0)" -filter_complex "geq=random(1)*255:random(1)*255:random(1)*255" -t 5 -c:v libx264 -c:a aac -pix_fmt yuv444p -y noise.mp4

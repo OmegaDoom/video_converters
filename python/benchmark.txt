@@ -1,0 +1,12 @@
+--- Container Stream Information ---
+Index: 0 | Type: video | Codec: rawvideo
+Index: 1 | Type: audio | Codec: aac
+Resolution: 1280x720
+
+Processing streams... Please wait.
+
+================ BENCHMARK RESULTS ================
+Total Processing Time : 18.4648 seconds
+Total Video Frames    : 150 frames
+Processing Speed      : 8.12 FPS
+===================================================
